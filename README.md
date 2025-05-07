@@ -73,11 +73,12 @@ b/y,V/Vc,Fr,b/d50,σg,ys/y
 ### 🚀 Running a Model
 
 1. Replace `'your_dataset_file_path.csv'` with your actual dataset path.
-2. Run the model (e.g.):
+2. Replace the column names 'feature1', 'feature2', ..., 'target_column' with your dataset's actual feature and target names.
+3. Run the model (e.g.):
    ```bash
    python models/ANN_Model.py
    ```
-3. Each script outputs evaluation metrics and scatter plots.
+4. Each script outputs evaluation metrics and scatter plots.
 
 ### 📦 Dependencies
 
